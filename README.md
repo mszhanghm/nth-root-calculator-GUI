@@ -1,0 +1,3 @@
+This simple GUI can do all mathematically legitimate calculations of nth root ofreal numbers. Illegal operation, such as square root of -4 will cause NthRootComputer to throw RuntimeException, which is caught and shown by the Controller.
+
+This application shows how the interface ActionListener is used and implemented and how it help connect software components. Specifically, JButton of the JFrame uses the ActionLister in the belief that it will be implemented by other components. Controller implements ActionListener method ActionPerformed, so that it is the realized ActionListener to handle the message sent out from JButton class. 
